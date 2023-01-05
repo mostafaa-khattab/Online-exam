@@ -1,0 +1,170 @@
+#sideBar {
+    position   : fixed;
+    top        : 35%;
+    left       : 0;
+    z-index    : 9999;
+    display    : flex;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #sideBar {
+        top: 18%;
+    }
+}
+
+#sideBar .box {
+    background-color: #ccc;
+    padding         : 15px;
+    border          : solid 2px #333;
+}
+
+#sideBar .color_box {
+    width           : 30px;
+    height          : 30px;
+    margin-top      : 10px;
+    margin-right    : 5px;
+    background-color: tomato;
+    display         : inline-block;
+    cursor          : pointer;
+}
+
+#sideBar i {
+    background-color: #333;
+    color           : #fff;
+    padding         : 10px;
+    font-size       : 23px;
+    cursor          : pointer;
+
+}
+
+.bac_category {
+    background-color: rgba(51, 51, 51, 0.176) !important;
+    color           : #fff;
+}
+
+.bac_category option {
+    color: #333 !important;
+}
+
+.bac_Number {
+    background-color: rgba(51, 51, 51, 0.176) !important;
+    color           : #fff !important;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.form-select {
+    background-color: rgba(51, 51, 51, 0.176) !important;
+
+}
+
+.bac_setting {
+    background-color: rgba(0, 0, 0, 0.5);
+    color           : lightcyan;
+    border-radius   : 20px;
+    padding-bottom  : 40px;
+}
+
+.pos_btn {
+    position: fixed;
+    right   : 25px;
+    bottom  : 7px;
+}
+
+.bg_quiz {
+    background-color: rgba(0, 0, 0, 1);
+    font-size       : 19px;
+}
+
+#quiz,
+#finish,
+#porfile {
+    display: none;
+}
+
+input,
+label,
+#category {
+    cursor: pointer;
+}
+
+#inp_Name,
+#numberOfQuestions {
+    cursor: text;
+}
+
+#answerBtn {
+
+    opacity: 0;
+}
+
+#btn_next {
+    opacity: 1;
+    float  : right;
+}
+
+#btn_prev {
+    opacity: 0;
+    float  : left;
+}
+
+
+.clr {
+    clear: both;
+}
+
+#alert1,
+#alert2,
+#alert3 {
+    display: none;
+}
+
+.disp_btn {
+    text-align     : center;
+    margin         : auto;
+    margin-top     : 60px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    width          : 40%;
+}
+
+.z {
+    font-size: 18px;
+    padding  : 7px 30px;
+}
+
+.clo {
+    color    : greenyellow;
+    font-size: 3rem;
+}
+
+.tab {
+    width     : 65%;
+    margin    : auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size : 18.4px;
+    font-style: italic;
+}
+
+.disp_btn2 {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-top     : 30px !important;
+    margin         : auto;
+    width          : 95%;
+}
+
+.d {
+    position: relative;
+    top     : 0;
+    bottom  : 0;
+    right   : 0;
+    left    : 0;
+}
